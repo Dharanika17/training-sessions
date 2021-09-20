@@ -1,0 +1,96 @@
+# Day6
+
+# node.js
+   - in node.js  every element first mention 
+    like
+
+    - const fs = require ("fs");
+
+   - fs is defaultly installed. 
+   ## create a directory.
+    
+         - fs.mkdir('./dirname',() => {
+
+         });
+   
+   ## create a file.
+
+    - const filename =[{}]
+    fs.writeFile('./dirname/filename',JSON.stringify(filename),() => {
+
+         });
+
+   ## read a file.
+        - fs.readdir("./dirname",(  ,  ) => {
+
+        });
+
+   ## segegrate a file.
+       - fs.fs.readdir("./dirname",(  ,  ) => {
+            //one method
+          const  jpgFiles = files.filter();
+          const           = files.filter();
+
+          //second method
+
+          files.endWith(".jpg);
+          same like that  
+        });
+
+
+
+
+- explained about blocking and non blocking
+
+- about callback function, sync and async, single and multi threaded architecture
+
+
+- client-server architecture
+
+- http module and fs module explained
+         
+         - const http = require ("http");
+         - const fs = require ("fs");
+
+
+- lodash and its methods explained         
+  - lodash we have clone it one element 
+
+           
+           - example
+            const emp2 = lodash.cloneDeep(emp1);
+            emp2 = "deepak"
+            console.log({emp1,emp2});
+
+## object destructing
+
+## more about moment
+       
+       * npm init -y
+       * npm i moment
+   
+## explained GET, POST, PUT and PATCH
+     
+     1. Get = we should use  lke grtMovies
+        otherwise it will show 404 error
+     2. POST = createmovies use create a obj
+        otherwise it will show err
+     3. PUSH = push a element to js     
+
+## installed postman
+ 
+   - We use chrome postman 
+
+## morgan-middleware
+## basics about expressjs
+  
+     * npm init -y
+     * npm i express
+
+## JSON.stringify
+  
+  - To convert json to string
+
+## JSON.parse
+ 
+  - To convert string to json
